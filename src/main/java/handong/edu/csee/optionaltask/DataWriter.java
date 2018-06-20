@@ -16,7 +16,7 @@ public class DataWriter {
 	public void getOutputFile() {
 
 		PrintWriter out = null;
-		System.out.println(result);
+		//System.out.println(result);
 
 		try {
 			out = new PrintWriter(filename);
