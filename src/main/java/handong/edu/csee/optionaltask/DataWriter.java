@@ -8,8 +8,8 @@ public class DataWriter {
 	String filename;
 	String result;
 
-	public DataWriter(String filename,String result) {
-		this.filename = filename; 
+	public DataWriter(String outputpath,String result) {
+		this.filename = outputpath+"output.html"; 
 		this.result=result;
 	}
 

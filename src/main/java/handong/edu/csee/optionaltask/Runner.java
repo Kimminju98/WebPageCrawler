@@ -3,6 +3,7 @@ package handong.edu.csee.optionaltask;
 
 import org.apache.commons.cli.CommandLine;
 
+
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.HelpFormatter;
@@ -77,10 +78,10 @@ public class Runner {
 				.required()
 				.build());
 
-		options.addOption(Option.builder("d").longOpt("ouputdir")
-				.desc("Set a filename")
+		options.addOption(Option.builder("d").longOpt("ouputPath")
+				.desc("Set a output file path")
 				.hasArg()
-				.argName("filename to display")
+				.argName("output file Path")
 				.required()
 				.build());
 
